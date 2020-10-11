@@ -20,7 +20,7 @@ def divide(n1, n2):
 
 
 #Simple user interface
-print("Welcome to my simple calculator 2!\n")
+print("Welcome to my simple calculator 2! The first one bugged...\n")
 print("Please, select operation:")
 print("1. Add")
 print("2. Subtract")
