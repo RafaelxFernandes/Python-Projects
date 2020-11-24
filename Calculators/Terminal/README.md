@@ -1,3 +1,3 @@
 ## Simple calculator on terminal
 
-![alt-text](example.png)
+![alt-text](terminal-example.png)
