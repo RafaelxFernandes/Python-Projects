@@ -4,7 +4,7 @@ Speech Recognition A.I. that understands, prints, repeats AND executes your voic
 Be sure to turn your volume on and have a microphone configured as default device for audio input, and ask for its name!
 
 ## Voice commands:
-To launch and applcation:
+To launch an appilcation:
 - launch {application name}
 - open {applcation name}
 
