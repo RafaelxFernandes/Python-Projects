@@ -1,14 +1,14 @@
 # Speech Recognition A.I.
 
-Speech Recognition A.I. that understands, prints and answers your commands!
+Speech Recognition A.I. that understands, prints, repeats AND executes your voice commands!
 Be sure to turn your volume on and have a microphone configured as default device for audio input, and ask for its name!
 
-It can also open any application you have!
-For that, you can say:
+## Voice commands:
+To launch and applcation:
 - launch {application name}
 - open {applcation name}
 
-To stop de A.I. running, you can say:
+To stop the A.I.:
 - exit
 - stop
 - bye
@@ -20,4 +20,7 @@ Unfortunately, this module has no cross-OS services yet, so only works in Linux.
 ```bash
 pip3 install SpeechRecognition
 sudo apt-get install gnustep-gui-runtime
+python audio.py
 ```
+
+![alt-text](terminal-example.png)

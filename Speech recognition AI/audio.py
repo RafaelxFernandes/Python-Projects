@@ -54,7 +54,8 @@ def init_speech():
         print("Printing your command!")
         command = recognizer.recognize_google(audio)
         print("Your command: " + command + "\n")
-        
+        say("You said " + command)
+
         if(command in stop_commands):
             global running
             running = False
@@ -64,6 +65,7 @@ def init_speech():
 
     except:
         print("\nCouldn't understand you...\n")
+        say("Please, speak again.")
 
 
 while(running == True):
